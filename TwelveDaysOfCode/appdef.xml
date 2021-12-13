@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<application
+			type="server-application"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:noNamespaceSchemaLocation="http://www.m-files.com/schemas/appdef-server-v3.xsd">
+  <guid>5ca2ebf6-bebe-466b-b9d2-2d87f4289e11</guid>
+  <name>Twelve Days Of Code</name>
+  <description>Twelve Days Of Code Challenge</description>
+  <publisher>Jeroen Roefs</publisher>
+  <version>1.0</version>
+  <copyright></copyright>
+  <required-mfiles-version>20.5.0.0</required-mfiles-version>
+  <multi-server-compatible>true</multi-server-compatible>
+  <extension-objects>
+    <extension-object>
+      <name>TwelveDaysOfCode</name>
+      <assembly>TwelveDaysOfCode.dll</assembly>
+      <class>TwelveDaysOfCode.VaultApplication</class>
+      <installation-method>Install</installation-method>
+      <uninstallation-method>Uninstall</uninstallation-method>
+      <initialization-method>Initialize</initialization-method>
+      <uninitialization-method>Uninitialize</uninitialization-method>
+      <start-operations-method>StartOperations</start-operations-method>
+    </extension-object>
+  </extension-objects>
+</application>
