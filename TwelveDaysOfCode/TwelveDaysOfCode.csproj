@@ -80,7 +80,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Configuration.cs" />
+    <Compile Include="Day2\Day2.cs" />
+    <Compile Include="Day2\Day2Config.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VaultAliases.cs" />
     <Compile Include="VaultApplication.cs" />
   </ItemGroup>
   <ItemGroup>
